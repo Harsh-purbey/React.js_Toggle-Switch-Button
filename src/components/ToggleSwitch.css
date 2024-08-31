@@ -1,0 +1,36 @@
+.toggle-switch-outer{
+    height: 10rem;
+    width: 22rem;
+    background-color: rgb(199, 195, 195);
+    border-radius: 5rem;
+    padding: 1.5rem;
+    
+}
+
+.switch-button{
+    border-radius: 50%;
+    background-color: orange;
+    width: 7rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s linear;
+}
+
+.switch-content{
+    font-size:xx-large;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.ON{
+ background-color: #4caf50;
+ transform: translateX(200px);
+ border: 5px solid whitesmoke;
+}
+
+.OFF{
+background-color: #f44336;
+transform: translateX(0);
+}
